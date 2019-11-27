@@ -1,20 +1,20 @@
 {
     "name": "keepondream/service",
-    "authors": [
-        {
-            "name": "wangsx",
-            "email": "402314889@qq.com"
-        }
-    ],
+    "type": "library",
     "require": {
         "php": ">=7.0"
     },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "keepondream",
+            "email": "402314889@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Keepondream\\serviceSingleInstance\\": "src/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "license": "MIT"
+    }
 }
